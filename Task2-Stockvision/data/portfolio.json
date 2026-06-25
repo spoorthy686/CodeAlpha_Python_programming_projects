@@ -1,0 +1,48 @@
+{
+    "spoorthy7": [
+        {
+            "symbol": "AAPL",
+            "quantity": 50.0,
+            "price": 100.0
+        },
+        {
+            "symbol": "TASL",
+            "quantity": 60.0,
+            "price": 150.0
+        }
+    ],
+    "spoorthy": [
+        {
+            "symbol": "AAPL",
+            "quantity": 5.0,
+            "price": 180.0
+        },
+        {
+            "symbol": "TSLA",
+            "quantity": 10.0,
+            "price": 180.0
+        }
+    ],
+    "Spoorthy Reddy": [
+        {
+            "symbol": "AAPL",
+            "quantity": 10.0,
+            "price": 180.0
+        },
+        {
+            "symbol": "TSLA",
+            "quantity": 14.0,
+            "price": 780.0
+        },
+        {
+            "symbol": "GOOGL",
+            "quantity": 13.0,
+            "price": 809.0
+        },
+        {
+            "symbol": "MSFT",
+            "quantity": 3.0,
+            "price": 324.0
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+customtkinter==5.2.2
+pillow==11.3.0
+yfinance==0.2.65
+matplotlib==3.10.6
+pandas==2.3.2
+numpy==2.3.2
+requests==2.32.5

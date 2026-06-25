@@ -1,166 +1,140 @@
-# CodeAlpha Python Internship Projects 🚀
+# Hangman Deluxe
 
-## Overview
+## Project Overview
 
-This repository contains the projects developed during my **CodeAlpha Python Programming Internship**. While the original internship tasks focused on core Python concepts, I enhanced them with additional features, graphical interfaces, improved user experiences, and practical functionalities to create more interactive and real-world applications.
+Hangman Deluxe is an enhanced graphical version of the classic Hangman game developed using Python and CustomTkinter. The project transforms a basic text-based guessing game into an interactive desktop application with a modern interface, difficulty levels, category selection, score tracking, hints, and visual gameplay elements.
 
-The projects helped me strengthen my knowledge of Python programming, GUI development, application design, file handling, and problem-solving.
+This project was developed during the CodeAlpha Python Programming Internship with additional features beyond the original task requirements.
 
 ---
 
-## Projects Included
+## Features
 
-### Task 1 – Hangman Deluxe
-
-An enhanced graphical version of the classic Hangman game with modern UI and interactive gameplay features.
-
-#### Features
+### Gameplay Features
 - Multiple word categories
-- Difficulty levels
-- Interactive virtual keyboard
-- Hint system
-- Score tracking
-- Lives management
-- Dynamic game states
-- Responsive user interface
+- Difficulty level selection (Easy, Medium, Hard)
+- Interactive letter keyboard
+- Real-time word guessing system
+- Hint functionality
+- Lives tracking system
+- Wrong guess detection
+- Win/Loss notifications
 
-**Technologies Used**
-- Python
-- CustomTkinter
-- Random Module
+### Score Features
+- Dynamic score system
+- Reward points for correct guesses
+- Performance tracking
 
----
+### Visual Features
+- Hangman image progression
+- Interactive game board
+- Modern dark-themed interface
+- Clean and responsive design
 
-### Task 2 – StockVision Pro (Portfolio Manager)
-
-A smart stock portfolio management application designed to manage investments and monitor portfolio performance.
-
-#### Features
-
-- User authentication system
-- Portfolio dashboard
-- Add and manage stock holdings
-- Portfolio analytics
-- Export portfolio data
-- Dark/Light theme support
-- Interactive interface
-
-**Technologies Used**
-- Python
-- CustomTkinter
-- JSON
-- File Handling
+### Navigation Features
+- Dashboard navigation
+- Restart game option
+- User-friendly controls
 
 ---
 
-### Task 3 – Smart Automation Hub
-
-A Python automation application created to automate repetitive tasks and organize files efficiently.
-
-#### Features
-
-- Folder selection functionality
-- Automatic file organization
-- Duplicate file detection
-- Email extraction
-- Statistics dashboard
-- Quote of the Day
-- Real-time processing
-
-**Technologies Used**
-- Python
-- Tkinter / CustomTkinter
-- OS Module
-- Regex
-- File Handling
-
----
-
-### Task 4 – Smart Assistant Pro
-
-An advanced AI-inspired assistant integrating productivity tools and chatbot functionality into a modern desktop application.
-
-#### Features
-
-- Interactive chatbot
-- Task manager
-- Notes management
-- Goal tracking
-- Reports generation
-- Chat history management
-- Real-time date and time
-- Dark theme support
-
-**Technologies Used**
-- Python
-- CustomTkinter
-- File Handling
-
----
-
-## Repository Structure
+## Project Structure
 
 ```text
-CodeAlpha_Python_Projects/
-│
-├── Task1_Hangman_Deluxe/
-│   ├── main.py
-│   ├── assets/
-│   └── README.md
-│
-├── Task2_StockVision_Pro/
-│   ├── main.py
-│   ├── data/
-│   └── README.md
-│
-├── Task3_Smart_Automation_Hub/
-│   ├── main.py
-│   ├── logs/
-│   └── README.md
-│
-├── Task4_Smart_Assistant_Pro/
-│   ├── main.py
-│   ├── data/
-│   └── README.md
+Task1_Hangman_Game/
 │
 ├── assets/
-│   ├── demo_videos/
-│   └── screenshots/
+│   └── images/
+│       ├── hangman0.png
+│       ├── hangman1.png
+│       ├── hangman2.png
+│       ├── hangman3.png
+│       ├── hangman4.png
+│       ├── hangman5.png
+│       └── hangman6.png
+│
+├── game/
+│   ├── game_engine.py
+│   ├── word_bank.py
+│   └── __init__.py
+│
+├── ui/
+│   ├── game_screen.py
+│
+├── main.py
+├── requirements.txt
 │
 └── README.md
 ```
 
 ---
 
-## Skills Developed
+## Technologies Used
 
-Through these projects, I gained hands-on experience in:
-
-- Python Programming
-- GUI Development
-- Object-Oriented Programming
-- File Handling
-- Automation Scripting
-- Event-driven Programming
-- Problem Solving
-- Application Design
-- Data Management
-- User Interface Design
+- Python
+- CustomTkinter
+- Tkinter
+- Random Module
 
 ---
 
-## Internship Details
+## Concepts Applied
 
-**Organization:** CodeAlpha  
-**Role:** Python Programming Intern
+- Object-Oriented Programming
+- GUI Development
+- Event-driven Programming
+- Lists and Dictionaries
+- Conditional Statements
+- Game Logic Design
+
+---
+
+## How to Run
+
+Clone the repository:
+
+```bash
+git clone <repository-link>
+```
+
+Navigate to the project folder:
+
+```bash
+cd Task1_Hangman_Game
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the application:
+
+```bash
+python main.py
+```
+
+---
+
+## Learning Outcomes
+
+Through this project, I gained practical experience in:
+
+- Building interactive GUI applications
+- Designing game logic
+- Managing user interactions
+- Implementing score and state tracking
+- Structuring Python projects professionally
+
+---
+
+## Developed During
+
+CodeAlpha Python Programming Internship
 
 ---
 
 ## Author
 
-**Katkuri Spoorthy**
----
-
-### Learning by Building 💡
-
-These projects represent my journey of transforming basic internship tasks into enhanced applications with improved functionality and user experience while continuously strengthening my technical skills.
+Katkuri Spoorthy
